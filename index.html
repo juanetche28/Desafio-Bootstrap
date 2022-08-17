@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Aromas en el Alma</title>
+</head>
+
+<body>
+    <!-- Voy a organizar la Pagina mediante Grids; armar logo y menu, Contenido y footer-->
+    <div class="container bg-body">
+        <!--Creacion del Menu - lo voy a poner en la misma linea que el logo-->
+        <div class="row mt-3 mb-3">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <img id="logo" src="img/logo-02.png" height="80px" alt="Difusor Logo">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="pages/productos.html">
+                                        Productos
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="pages/contacto.html">
+                                        Contacto
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="pages/nosotros.html">
+                                        Nosotros
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="pages/galeria.html">
+                                        Galeria
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#pie-de-pagina">
+                                        Ir al Footer
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row mt-3 mb-3">
+            <p class="display-6 text-warning">
+               En la actualidad la aromaterapia es una medicina  complementaria ampliamente practicada, que utiliza aceites esenciales de plantas aromáticas, flores, hojas, semillas, cortezas y frutas para ayudar a curar.
+            </p>
+        </div>
+
+        <div class="row mt-3 mb-3">
+            <hr>
+            <p class="h4 text-primary">
+              La <spam class="text-muted">Aromaterapia</spam> no solo huele bien, sino que es beneficiosa de muchas maneras. La aromaterapia puede ayudar a aliviar:
+            </p>
+            <hr>
+            <!-- Creo una Lista -->
+            <li>Náuseas</li>
+            <li>Dolores y molestias corporales</li>
+            <li>Ansiedad, agitación, estrés y depresión</li>
+            <li>Fatiga e insomnio</li>
+            <li>Dolores musculares</li>
+            <li>Dolores de cabeza</li>
+            <li>Problemas menstruales</li>
+        </div>
+
+        <!-- Creo una Tabla -->
+        <div class="row mt-5 mb-3">
+            <h4 class="text-primary">¿Cómo puedo utilizar la aromaterapia?</h4>
+            <div class="col-lg-6 col-sm-12">
+                <table class="table">
+                    <thead>
+                        <tr class="table-secondary">
+                            <th scope="col">USO</th>
+                            <th scope="col">DETALLE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Inhalación indirecta</th>
+                            <td>La persona respira un aceite esencial al utilizar un difusor</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Inhalación directa</th>
+                            <td>La persona respira un aceite esencial utilizando un inhalador individual</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Masaje</th>
+                            <td colspan="2">se diluyen uno o más aceites esenciales y se aplican masajes sobre la piel</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row mt-3 mb-3">
+            <div col-3>
+                <!--Enlace Interno-->
+                <a href="#logo">Volver al inicio</a>
+                <footer id="pie-de-pagina">
+                    <h6 class="mt-3">Copyright ©</h6>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Galeria</title>
+</head>
+<body class="bg-light">
+     <!--Enlace Relativo para volver a Home--> 
+     <div class="container">
+         <div class="row ml-1">
+             <div class="col-lg-3 col-sm-12">
+                 <a href="../index.html">Volver a Home</a>
+             </div>
+          </div>
+          <div class="row mt-3 bg-secondary">
+               <div class="col-12">
+                    <h1 class="h2 text-white">
+                         Aqui encontraras algunas imagenes de nuestros productos mas elegidos
+                    </h1>
+               </div>
+          </div>
+          <!--Galeria de imagenes formato "Carrusel"-->
+          <div class="row mt-3 justify-content-center">
+               <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                         <div class="carousel-indicators">
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                         </div>
+                         <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                   <img src="../img/producto-01.jpg" class="d-block w-100" alt="Difusor + Esencia color naranja">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-02.jpg" class="d-block w-100" alt="Jabon de mano + Esencia liquidos Transparentes"> 
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-03.jpg" class="d-block w-100" alt="Difusores a vela color Celeste">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-04.jpg" class="d-block w-100" alt="Difusor + portavela de vidrio transparente">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-05.jpg" class="d-block w-100" alt="Difusores a Vela color Plateado y brillante">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-06.jpg" class="d-block w-100" alt="Difures color verde">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-07.jpg" class="d-block w-100" alt="Difusores color marron">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-08.jpg" class="d-block w-100" alt="Difusores Plateado - Verde - Negro">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-09.jpg" class="d-block w-100" alt="Perfumina + adorno flores secas">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-10.jpg" class="d-block w-100" alt="Perfumina + Difusor color transparente">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-11.jpg" class="d-block w-100" alt="Hornitos a vela">
+                              </div>
+                              <div class="carousel-item">
+                                   <img src="../img/producto-12.jpg" class="d-block w-100" alt="Difusores con caja de Presentacion - Regalo">
+                              </div>
+                         </div>
+                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Anterior</span>
+                         </button>
+                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Siguiente</span>
+                         </button>
+                    </div>
+               </div>
+          </div>
+          <div class="row mt-3">
+               <div class="col-lg-3 col-sm-12">
+                    <!--Enlace Interno-->
+                    <a href="#home">Volver al inicio</a>
+               </div>
+          </div>
+     </div>
+     <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
